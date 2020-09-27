@@ -117,7 +117,7 @@ stages:
                       echo "Running selenium tests ..."
                       python3 project/s/selenium/selenium_test.py
                       echo "Moving selenium log files to /var/log/selenium/ ..."
-                      mv *.log -t /var/log/selenium
+                      sudo mv *.log -t /var/log/selenium
 
                 - task: Bash@3
                   displayName: "Run Jmeter tests"
