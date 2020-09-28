@@ -134,6 +134,7 @@ stages:
                         unzip chromedriver_linux64.zip
                         sudo mv chromedriver -t /usr/bin
                         echo "Removing chromedriver_linux64.zip ..."
+                        rm -rf chromedriver_linux64.zip
                       fi
 
                 - task: ExtractFiles@1
