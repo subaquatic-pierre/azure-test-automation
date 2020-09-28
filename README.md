@@ -77,7 +77,9 @@ CITESTING
 
 8. Create SSH keypair to be used with GitHub and Azure Pipelines ([resource](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/install-ssh-key?view=azure-devops))
 
-9. Update 'azure-pipelines.yaml' to include your SSH key ([resource](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/install-ssh-key?view=azure-devops))
+9. Create Service Connection in DevOps project
+
+10. Update 'azure-pipelines.yaml' to include your SSH key ([resource](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/install-ssh-key?view=azure-devops))
 
 ```yaml
 - task: InstallSSHKey@0
@@ -87,11 +89,11 @@ CITESTING
     sshKeySecureFile: "YOUR_SECURE_FILE"
 ```
 
-10. Create Log Analytics Workspace ([resource](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-create-workspace))
+11. Create Log Analytics Workspace ([resource](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-create-workspace))
 
-11. Link Virtual Machine to Log Work Space ([resource](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-collect-azurevm))
+12. Link Virtual Machine to Log Work Space ([resource](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-collect-azurevm))
 
-12. Create custom log file ([resource](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources-custom-logs))
+13. Create custom log file ([resource](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources-custom-logs))
 
 The log path name should be the following:
 
@@ -99,15 +101,15 @@ The log path name should be the following:
 /var/log/selenium/*.log
 ```
 
-13. Connect App Service to Write logs to Azure Log Workspace
+14. Connect App Service to Write logs to Azure Log Workspace
 
-14. Create Alert Group for the App Service
+15. Create Alert Group for the App Service
 
-15. Change directory into 'jmeter'. Open Jmeter application and open the stress_test_suite.jmx' or 'endurance_test_suite.jmx' to edit the suite. Save the suites with their respective names. Edit URL to point to your WebAppService
+16. Change directory into 'jmeter'. Open Jmeter application and open the stress_test_suite.jmx' or 'endurance_test_suite.jmx' to edit the suite. Save the suites with their respective names. Edit URL to point to your WebAppService
 
-16. Write Selenium tests in 'selenium/selenium_test.py'
+17. Write Selenium tests in 'selenium/selenium_test.py'
 
-17. Make one last git commit and push for pipeline to trigger the final build
+18. Make one last git commit and push for pipeline to trigger the final build
 
 ```
 git add .
