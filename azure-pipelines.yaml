@@ -137,6 +137,14 @@ stages:
                         rm -rf chromedriver_linux64.zip
                       fi
 
+                      if test -f "usr/bin/java"
+                      then
+                        echo "JRE is already installed"
+                      else
+                        echo "Install default JRE ..."
+                        sudo apt install default-jre -y
+                      fi
+
                 - task: ExtractFiles@1
                   inputs:
                     archiveFilePatterns: "$(Pipeline.Workspace)/drop-project/$(Build.BuildId)-project.zip"
