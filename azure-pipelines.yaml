@@ -91,14 +91,8 @@ stages:
                     artifact: "drop-project"
                     path: $(Build.SourcesDirectory)
 
-                - task: ExtractFiles@1
-                  inputs:
-                    archiveFilePatterns: "$(Pipeline.Workspace)/drop-project/$(Build.BuildId)-project.zip"
-                    destinationFolder: "$(Pipeline.Workspace)/project"
-                    cleanDestinationFolder: true
-
                 - task: Bash@3
-                  displayName: "Run Selenium tests"
+                  displayName: "Install Dependencies"
                   inputs:
                     targetType: "inline"
                     script: |
@@ -111,21 +105,6 @@ stages:
                       sudo apt-get install -y chromium-browser
                       pip3 install selenium
                       export PATH=$PATH:/usr/bin/chromebrowser
-
-                      # ------------- Run Selenium tests -------------
-                      cd ..
-                      echo "Running selenium tests ..."
-                      python3 project/s/selenium/selenium_test.py
-                      echo "Moving selenium log files to /home/udacity/log/selenium/ ..."
-                      sudo mkdir /home/udacity/log/selenium
-                      sudo mv *.log -t /home/udacity/log/selenium
-
-                - task: Bash@3
-                  displayName: "Run Jmeter tests"
-                  inputs:
-                    targetType: "inline"
-                    script: |
-                      #! /bin/bash
 
                       # ------------- Install Jmeter -------------
                       if test -f "/usr/bin/jmeter"
@@ -149,6 +128,34 @@ stages:
                         echo "Removing jmeter tgz ..."
                         sudo rm -rf apache-jmeter-5.3.tgz
                       fi
+
+                - task: ExtractFiles@1
+                  inputs:
+                    archiveFilePatterns: "$(Pipeline.Workspace)/drop-project/$(Build.BuildId)-project.zip"
+                    destinationFolder: "$(Pipeline.Workspace)/project"
+                    cleanDestinationFolder: true
+
+                - task: Bash@3
+                  displayName: "Run Selenium tests"
+                  inputs:
+                    targetType: "inline"
+                    script: |
+                      #! /bin/bash
+
+                      # ------------- Run Selenium tests -------------
+                      cd ..
+                      echo "Running selenium tests ..."
+                      python3 project/s/selenium/selenium_test.py
+                      echo "Moving selenium log files to /home/udacity/log/selenium/ ..."
+                      sudo mkdir /home/udacity/log/selenium
+                      sudo mv *.log -t /home/udacity/log/selenium
+
+                - task: Bash@3
+                  displayName: "Run Jmeter tests"
+                  inputs:
+                    targetType: "inline"
+                    script: |
+                      #! /bin/bash
 
                       # --------- Preparing to run Jmeter tests HTML report dirs -------------
                       echo "Changing into Project jmeter dir ..."
