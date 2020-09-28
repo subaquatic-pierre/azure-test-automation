@@ -83,11 +83,24 @@ terraform apply
     sshKeySecureFile: "YOUR_SECURE_FILE"
 ```
 
-11. Create Log Analytics Workspace ([resource](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-create-workspace))
+11. Update 'azureSubscription' and 'appName' in Deploy stage in 'azure-pipelines.yaml'
 
-12. Link Virtual Machine to Log Work Space ([resource](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-collect-azurevm))
+Get Service connection ID to be used in azureSubscription variable below
 
-13. Create custom log file ([resource](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources-custom-logs))
+```
+https://dev.azure.com/{organization}/{project}/_apis/serviceendpoint/endpoints?api-version=5.0-preview.2
+```
+
+```yaml
+azureSubscription: "8946b145-1fad-4823-a128-5f486158f331"
+appName: "testautomation-appservice"
+```
+
+12. Create Log Analytics Workspace ([resource](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-create-workspace))
+
+13. Link Virtual Machine to Log Work Space ([resource](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-collect-azurevm))
+
+14. Create custom log file ([resource](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources-custom-logs))
 
 The log path name should be the following:
 
@@ -95,15 +108,15 @@ The log path name should be the following:
 /var/log/selenium/*.log
 ```
 
-14. Connect App Service to Write logs to Azure Log Workspace
+15. Connect App Service to Write logs to Azure Log Workspace
 
-15. Create Alert Group for the App Service
+16. Create Alert Group for the App Service
 
-16. Change directory into 'jmeter'. Open Jmeter application and open the stress_test_suite.jmx' or 'endurance_test_suite.jmx' to edit the suite. Save the suites with their respective names. Edit URL to point to your WebAppService
+17. Change directory into 'jmeter'. Open Jmeter application and open the stress_test_suite.jmx' or 'endurance_test_suite.jmx' to edit the suite. Save the suites with their respective names. Edit URL to point to your WebAppService
 
-17. Write Selenium tests in 'selenium/selenium_test.py'
+18. Write Selenium tests in 'selenium/selenium_test.py'
 
-18. Make one last git commit and push for pipeline to trigger the final build
+19. Make one last git commit and push for pipeline to trigger the final build
 
 ```
 git add .
