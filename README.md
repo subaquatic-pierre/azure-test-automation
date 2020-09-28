@@ -126,9 +126,16 @@ git commit -m 'Final build'
 git push
 ```
 
-## Notes
+## Project 3 Notes
 
 - Cant run Jmeter tests with Standard_B1s machine, not enough RAM, need to use Standard_B2s
+- Jmeter tests:
+  - Stress test : 30 threads over 60 seconds
+  - Endurance tests : 10 threads over 3 minutes
+  - Azure Application Service is disabled because quota reached
+  - Developer Alert email not sent because App is disabled
+- Unable to get selenium logs from Log Analytics
+- Original 'terraform.tfvars' file not uploaded to GitHub for security reasons
 
 ## Resources
 
