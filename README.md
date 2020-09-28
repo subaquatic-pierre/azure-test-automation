@@ -116,7 +116,9 @@ The log path name should be the following:
 
 18. Write Selenium tests in 'selenium/selenium_test.py'
 
-19. Make one last git commit and push for pipeline to trigger the final build
+19. Uncomment line 32 in 'azure-pipelines' to run Postman tests in Build environment
+
+20. Make one last git commit and push for pipeline to trigger the final build
 
 ```
 git add .
