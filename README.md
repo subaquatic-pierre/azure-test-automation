@@ -148,6 +148,7 @@ sudo rm -rf apache-jmeter-5.3.tgz
 ### Selenium and ChromeDriver installation
 
 Install selenium and add chrome-driver to PATH
+e
 
 ```sh
 sudo apt-get upgrade -y
