@@ -111,12 +111,7 @@ stages:
                         echo 'Jmeter already installed'
                       else
                         echo "Changing directory to /home/udacity ..."
-                        cd /home/udacity
-                        echo "Current directory: "
-                        pwd
-                        echo "Directory contents: "
-                        ls -l
-                        
+                        cd /home/udacity                        
                         echo "Downloading Jmeter ..."
                         wget https://downloads.apache.org//jmeter/binaries/apache-jmeter-5.3.tgz
 
@@ -126,6 +121,19 @@ stages:
                         sudo ln -s /home/udacity/apache-jmeter-5.3/bin/jmeter /usr/bin/jmeter
                         echo "Removing jmeter tgz ..."
                         sudo rm -rf apache-jmeter-5.3.tgz
+                      fi
+
+                      # ------------- Install Chromedriver -------------
+                      if test -f "usr/bin/chromedriver"
+                      then
+                        echo 'Chromedriver is already installed'
+                      else
+                        echo "Changing directory to /home/udacity ..."
+                        cd /home/udacity        
+                        wget https://chromedriver.storage.googleapis.com/85.0.4183.87/chromedriver_linux64.zip
+                        unzip chromedriver_linux64.zip
+                        sudo mv chromedriver -t /usr/bin
+                        echo "Removing chromedriver_linux64.zip ..."
                       fi
 
                 - task: ExtractFiles@1
@@ -142,9 +150,6 @@ stages:
                       #! /bin/bash
 
                       # ------------- Run Selenium tests -------------
-                      wget https://chromedriver.storage.googleapis.com/85.0.4183.87/chromedriver_linux64.zip
-                      unzip chromedriver_linux64.zip
-                      export PATH=$PATH:chromedriver
                       cd ..
                       echo "Running selenium tests ..."
                       python3 project/s/selenium/selenium_test.py
