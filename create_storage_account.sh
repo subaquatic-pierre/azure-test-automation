@@ -1,8 +1,8 @@
 #!/bin/bash
 
 RESOURCE_GROUP_NAME=terraform-state
-STORAGE_ACCOUNT_NAME=udacityproject3
-CONTAINER_NAME=udacityproject3
+STORAGE_ACCOUNT_NAME=cicdtestautomation
+CONTAINER_NAME=cicdtestautomation
 
 # Create resource group
 #  az group create --name $RESOURCE_GROUP_NAME --location eastus

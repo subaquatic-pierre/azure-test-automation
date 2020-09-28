@@ -75,7 +75,7 @@ Name the environment the following:
 CITESTING
 ```
 
-8. Create SSH keypair to be used with GitHub and Azure Pipelines ([resource](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/mac-create-ssh-keys))5
+8. Create SSH keypair to be used with GitHub and Azure Pipelines ([resource](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/install-ssh-key?view=azure-devops))
 
 9. Update 'azure-pipelines.yaml' to include your SSH key ([resource](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/install-ssh-key?view=azure-devops))
 
@@ -204,4 +204,4 @@ https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/deploy-linux-
 
 #### - Create SSH key pair
 
-https://docs.microsoft.com/en-us/azure/virtual-machines/linux/mac-create-ssh-keys
+https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/install-ssh-key?view=azure-devops

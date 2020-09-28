@@ -11,8 +11,8 @@ stages:
           - task: InstallSSHKey@0
             inputs:
               knownHostsEntry: "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ=="
-              sshPublicKey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDSNA+M5NggjyEGyWYlYkreMNSQ9QmF7qZsnxiAM5sHDmEdO8doeoFGQSndeQK3vaqKgvseIVTLAiHiEniLyDZTkqEZMAI8hzlPsMQJ8MnFcZTXjFECesyIvmxy43ATkxh810kR6aIAXnUH8YHh1E/S7UwvA8u4Y720vgKoVi+803tCtuOzgwdT4MWjFVcsVXTPnG7RkpUy1kBU5t8vDNfOLkxCbolaED+34owaDjpro+g+7Vr83juQIQLiNmZUjBneW2Rv+Lk+lsQgSmlIpsW4KyyQg5hr8OF0OkfeGHBssSBVtP/C3U7gs44TW++lYLELXjIqFHBKsuyJgUHohB8P pierre@tallons"
-              sshKeySecureFile: "project_3_rsa"
+              sshPublicKey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDYVmb0Hq7MvvnsaMI04afta/wITDcz1UC9B5B81jZiGkeHnSZKJmH13Kln02TTBb4yJdpg9PPkhEeVRPVNUvLya5sIF5LHjOz57wyRFiXFitO8qQH+2+JdesCGA7+LYR8FjZyqBdNgIDxJZf4/exRi1FxoqmHAxnmXq980fcLYp89/GunvDRWKZaWRfrJ8QtEYZeuX241JEWYnGJATaJw78rOW2HZt3hl9OOdeRORFsRwNoPMJqUHUtzREaGgKqz/EZqSh3VtEqZv4fhDLJmlC1yEhzW9ZntaDTA2nucr1rU8WyNfetuRNh2DA44sVXux+MiEQWJTtSZ4FmeUOhgc1"
+              sshKeySecureFile: "id_rsa"
 
           - task: Bash@3
             displayName: "Run Postman tests"

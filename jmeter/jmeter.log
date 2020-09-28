@@ -1,388 +1,210 @@
-2020-09-27 15:19:16,181 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2020-09-27 15:19:16,228 INFO o.a.j.JMeter: Loading user properties from: /usr/lib/apache-jmeter-5.3/bin/user.properties
-2020-09-27 15:19:16,229 INFO o.a.j.JMeter: Loading system properties from: /usr/lib/apache-jmeter-5.3/bin/system.properties
-2020-09-27 15:19:16,231 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
-2020-09-27 15:19:16,231 INFO o.a.j.JMeter: Version 5.3
-2020-09-27 15:19:16,231 INFO o.a.j.JMeter: java.version=11.0.8
-2020-09-27 15:19:16,231 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2020-09-27 15:19:16,231 INFO o.a.j.JMeter: os.name=Linux
-2020-09-27 15:19:16,231 INFO o.a.j.JMeter: os.arch=amd64
-2020-09-27 15:19:16,231 INFO o.a.j.JMeter: os.version=5.4.0-48-generic
-2020-09-27 15:19:16,231 INFO o.a.j.JMeter: file.encoding=UTF-8
-2020-09-27 15:19:16,232 INFO o.a.j.JMeter: java.awt.headless=null
-2020-09-27 15:19:16,232 INFO o.a.j.JMeter: Max memory     =1073741824
-2020-09-27 15:19:16,232 INFO o.a.j.JMeter: Available Processors =6
-2020-09-27 15:19:16,244 INFO o.a.j.JMeter: Default Locale=English (EN)
-2020-09-27 15:19:16,245 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2020-09-27 15:19:16,245 INFO o.a.j.JMeter: JMeterHome=/usr/lib/apache-jmeter-5.3
-2020-09-27 15:19:16,245 INFO o.a.j.JMeter: user.dir  =/home/pierre/Courses/DevOpsUdacity/Project_3/jmeter
-2020-09-27 15:19:16,245 INFO o.a.j.JMeter: PWD       =/home/pierre/Courses/DevOpsUdacity/Project_3/jmeter
-2020-09-27 15:19:16,246 INFO o.a.j.JMeter: IP: 10.0.2.15 Name: tallons FullName: tallons
-2020-09-27 15:19:16,484 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
-2020-09-27 15:19:16,757 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2020-09-27 15:19:19,226 INFO o.a.j.s.FileServer: Default base='/home/pierre/Courses/DevOpsUdacity/Project_3/jmeter'
-2020-09-27 15:19:32,313 INFO o.a.j.g.a.Load: Loading file: /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/stress_test_suite.jmx
-2020-09-27 15:19:32,314 INFO o.a.j.s.FileServer: Set new base='/home/pierre/Courses/DevOpsUdacity/Project_3/jmeter'
-2020-09-27 15:19:32,515 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2020-09-27 15:19:32,547 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2020-09-27 15:19:32,549 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2020-09-27 15:19:32,551 INFO o.a.j.s.SaveService: Loading file: /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/stress_test_suite.jmx
-2020-09-27 15:19:32,579 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2020-09-27 15:19:32,579 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2020-09-27 15:19:32,579 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2020-09-27 15:19:32,579 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2020-09-27 15:19:32,580 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2020-09-27 15:19:32,580 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2020-09-27 15:19:32,723 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2020-09-27 15:19:32,724 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2020-09-27 15:19:32,724 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2020-09-27 15:19:32,724 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2020-09-27 15:19:32,863 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2020-09-27 15:19:32,925 INFO o.a.j.s.FileServer: Set new base='/home/pierre/Courses/DevOpsUdacity/Project_3/jmeter'
-2020-09-27 15:20:23,586 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2020-09-27 15:20:23,588 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-09-27 15:20:23,589 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-09-27 15:20:23,592 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2020-09-27 15:20:23,592 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2020-09-27 15:20:23,888 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2020-09-27 15:20:23,959 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Stress Test
-2020-09-27 15:20:23,959 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Stress Test.
-2020-09-27 15:20:23,959 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-09-27 15:20:23,959 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
-2020-09-27 15:20:23,964 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2020-09-27 15:20:23,964 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2020-09-27 15:20:23,971 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-1
-2020-09-27 15:20:23,973 INFO o.a.j.s.FileServer: Stored: /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/var/vars.csv
-2020-09-27 15:20:24,469 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-2
-2020-09-27 15:20:38,960 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-1
-2020-09-27 15:20:38,960 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-1
-2020-09-27 15:20:38,963 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-2
-2020-09-27 15:20:38,963 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-2
-2020-09-27 15:20:38,964 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2020-09-27 15:20:38,964 INFO o.a.j.s.FileServer: Close: /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/var/vars.csv
-2020-09-27 15:20:38,964 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2020-09-27 15:20:57,892 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2020-09-27 15:20:57,896 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-09-27 15:20:57,922 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2020-09-27 15:20:58,041 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Stress Test
-2020-09-27 15:20:58,041 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Stress Test.
-2020-09-27 15:20:58,042 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-09-27 15:20:58,042 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
-2020-09-27 15:20:58,046 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2020-09-27 15:20:58,047 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2020-09-27 15:20:58,047 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-1
-2020-09-27 15:20:58,048 INFO o.a.j.s.FileServer: Stored: /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/var/vars.csv
-2020-09-27 15:20:58,066 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = tallons
-2020-09-27 15:20:58,075 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 1
-2020-09-27 15:20:58,559 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-2
-2020-09-27 15:20:58,818 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2020-09-27 15:20:58,823 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2020-09-27 15:20:58,824 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2020-09-27 15:20:59,138 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2020-09-27 15:20:59,140 INFO o.a.j.u.SSLManager: KeyStore created OK
-2020-09-27 15:20:59,140 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2020-09-27 15:21:01,511 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-1
-2020-09-27 15:21:01,514 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-1
-2020-09-27 15:21:01,520 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-2
-2020-09-27 15:21:01,520 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-2
-2020-09-27 15:21:01,522 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2020-09-27 15:21:01,522 INFO o.a.j.s.FileServer: Close: /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/var/vars.csv
-2020-09-27 15:21:01,522 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2020-09-27 15:21:21,141 INFO o.a.j.g.a.Load: Loading file: /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/endurance_test_suite.jmx
-2020-09-27 15:21:21,141 INFO o.a.j.s.FileServer: Set new base='/home/pierre/Courses/DevOpsUdacity/Project_3/jmeter'
-2020-09-27 15:21:21,141 INFO o.a.j.s.SaveService: Loading file: /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/endurance_test_suite.jmx
-2020-09-27 15:21:21,170 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2020-09-27 15:21:21,258 INFO o.a.j.s.FileServer: Set new base='/home/pierre/Courses/DevOpsUdacity/Project_3/jmeter'
-2020-09-27 15:21:55,559 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2020-09-27 15:21:55,560 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-09-27 15:21:55,590 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2020-09-27 15:21:55,726 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Endurance Test
-2020-09-27 15:21:55,726 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Endurance Test.
-2020-09-27 15:21:55,726 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-09-27 15:21:55,726 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
-2020-09-27 15:21:55,747 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-1
-2020-09-27 15:21:55,747 INFO o.a.j.s.FileServer: Stored: /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/stress_test_vars.csv
-2020-09-27 15:21:55,742 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2020-09-27 15:21:55,748 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: Could not read file header line for file /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/stress_test_vars.csv
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:198) ~[ApacheJMeter_components.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.IllegalArgumentException: File stress_test_vars.csv must exist and be readable
-	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.3]
-	... 8 more
-2020-09-27 15:21:55,759 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-1
-2020-09-27 15:21:55,755 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2020-09-27 15:21:56,272 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-2
-2020-09-27 15:21:56,273 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: Could not read file header line for file /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/stress_test_vars.csv
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:198) ~[ApacheJMeter_components.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.IllegalArgumentException: File stress_test_vars.csv must exist and be readable
-	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.3]
-	... 8 more
-2020-09-27 15:21:56,274 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-2
-2020-09-27 15:21:56,275 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2020-09-27 15:21:56,275 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2020-09-27 15:22:11,198 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2020-09-27 15:22:11,199 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-09-27 15:22:11,204 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2020-09-27 15:22:11,247 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Endurance Test
-2020-09-27 15:22:11,247 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Endurance Test.
-2020-09-27 15:22:11,247 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-09-27 15:22:11,247 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
-2020-09-27 15:22:11,248 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2020-09-27 15:22:11,248 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2020-09-27 15:22:11,248 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-1
-2020-09-27 15:22:11,249 INFO o.a.j.s.FileServer: Stored: /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/stress_test_vars.csv
-2020-09-27 15:22:11,250 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: Could not read file header line for file /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/stress_test_vars.csv
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:198) ~[ApacheJMeter_components.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.IllegalArgumentException: File stress_test_vars.csv must exist and be readable
-	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.3]
-	... 8 more
-2020-09-27 15:22:11,250 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-1
-2020-09-27 15:22:11,753 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-2
-2020-09-27 15:22:11,754 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: Could not read file header line for file /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/stress_test_vars.csv
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:198) ~[ApacheJMeter_components.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.IllegalArgumentException: File stress_test_vars.csv must exist and be readable
-	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.3]
-	... 8 more
-2020-09-27 15:22:11,754 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-2
-2020-09-27 15:22:11,755 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2020-09-27 15:22:11,755 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2020-09-27 15:22:29,979 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2020-09-27 15:22:29,980 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-09-27 15:22:29,981 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2020-09-27 15:22:30,038 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Endurance Test
-2020-09-27 15:22:30,039 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Endurance Test.
-2020-09-27 15:22:30,039 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-09-27 15:22:30,039 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
-2020-09-27 15:22:30,040 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-1
-2020-09-27 15:22:30,041 INFO o.a.j.s.FileServer: Stored: /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/stress_test_vars.csv
-2020-09-27 15:22:30,041 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: Could not read file header line for file /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/stress_test_vars.csv
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:198) ~[ApacheJMeter_components.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.IllegalArgumentException: File stress_test_vars.csv must exist and be readable
-	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.3]
-	... 8 more
-2020-09-27 15:22:30,042 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-1
-2020-09-27 15:22:30,042 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2020-09-27 15:22:30,042 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2020-09-27 15:22:30,542 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-2
-2020-09-27 15:22:30,543 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: Could not read file header line for file /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/stress_test_vars.csv
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:198) ~[ApacheJMeter_components.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.IllegalArgumentException: File stress_test_vars.csv must exist and be readable
-	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.3]
-	... 8 more
-2020-09-27 15:22:30,543 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-2
-2020-09-27 15:22:30,543 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2020-09-27 15:22:30,544 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2020-09-27 15:23:03,411 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2020-09-27 15:23:03,411 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-09-27 15:23:03,414 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2020-09-27 15:23:03,547 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Endurance Test
-2020-09-27 15:23:03,548 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Endurance Test.
-2020-09-27 15:23:03,548 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-09-27 15:23:03,548 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
-2020-09-27 15:23:03,550 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2020-09-27 15:23:03,551 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2020-09-27 15:23:03,551 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-1
-2020-09-27 15:23:03,552 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: Filename must not be null or empty
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:256) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:198) ~[ApacheJMeter_components.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-2020-09-27 15:23:03,554 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-1
-2020-09-27 15:23:04,051 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-2
-2020-09-27 15:23:04,052 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: Filename must not be null or empty
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:256) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:198) ~[ApacheJMeter_components.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-2020-09-27 15:23:04,053 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-2
-2020-09-27 15:23:04,055 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2020-09-27 15:23:04,055 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2020-09-27 15:23:27,930 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2020-09-27 15:23:27,931 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-09-27 15:23:27,932 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2020-09-27 15:23:28,018 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Endurance Test
-2020-09-27 15:23:28,018 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Endurance Test.
-2020-09-27 15:23:28,018 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-09-27 15:23:28,018 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
-2020-09-27 15:23:28,027 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2020-09-27 15:23:28,027 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2020-09-27 15:23:28,027 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-1
-2020-09-27 15:23:28,028 INFO o.a.j.s.FileServer: Stored: ./var/vars.cvs
-2020-09-27 15:23:28,028 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: Could not read file header line for file ./var/vars.cvs
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:198) ~[ApacheJMeter_components.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.IllegalArgumentException: File vars.cvs must exist and be readable
-	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.3]
-	... 8 more
-2020-09-27 15:23:28,029 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-1
-2020-09-27 15:23:28,522 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-2
-2020-09-27 15:23:28,523 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: Could not read file header line for file ./var/vars.cvs
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:198) ~[ApacheJMeter_components.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.IllegalArgumentException: File vars.cvs must exist and be readable
-	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.3]
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.3]
-	... 8 more
-2020-09-27 15:23:28,523 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-2
-2020-09-27 15:23:28,523 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2020-09-27 15:23:28,524 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2020-09-27 15:23:52,638 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2020-09-27 15:23:52,639 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-09-27 15:23:52,640 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2020-09-27 15:23:52,742 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Endurance Test
-2020-09-27 15:23:52,743 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Endurance Test.
-2020-09-27 15:23:52,743 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-09-27 15:23:52,743 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
-2020-09-27 15:23:52,744 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-1
-2020-09-27 15:23:52,754 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2020-09-27 15:23:52,754 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2020-09-27 15:23:53,262 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-2
-2020-09-27 15:23:57,743 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Endurance Test 1-1
-2020-09-27 15:23:57,744 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Endurance Test 1-2
-2020-09-27 15:23:57,744 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-2
-2020-09-27 15:23:57,745 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-1
-2020-09-27 15:23:57,745 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2020-09-27 15:23:57,746 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2020-09-27 15:24:04,487 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2020-09-27 15:24:04,492 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-09-27 15:24:04,506 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2020-09-27 15:24:04,689 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Endurance Test
-2020-09-27 15:24:04,689 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Endurance Test.
-2020-09-27 15:24:04,689 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-09-27 15:24:04,689 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
-2020-09-27 15:24:04,695 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-1
-2020-09-27 15:24:04,705 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2020-09-27 15:24:04,705 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2020-09-27 15:24:05,201 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-2
-2020-09-27 15:24:09,689 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Endurance Test 1-1
-2020-09-27 15:24:09,689 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-1
-2020-09-27 15:24:09,697 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Endurance Test 1-2
-2020-09-27 15:24:09,697 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-2
-2020-09-27 15:24:09,698 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2020-09-27 15:24:09,698 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2020-09-27 15:24:22,988 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2020-09-27 15:24:22,988 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-09-27 15:24:22,989 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2020-09-27 15:24:23,069 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Endurance Test
-2020-09-27 15:24:23,069 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Endurance Test.
-2020-09-27 15:24:23,069 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-09-27 15:24:23,069 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
-2020-09-27 15:24:23,070 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2020-09-27 15:24:23,070 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2020-09-27 15:24:23,071 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-1
-2020-09-27 15:24:23,570 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-2
-2020-09-27 15:24:28,162 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Endurance Test 1-2
-2020-09-27 15:24:28,162 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-2
-2020-09-27 15:24:28,166 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Endurance Test 1-1
-2020-09-27 15:24:28,166 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-1
-2020-09-27 15:24:28,167 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2020-09-27 15:24:28,168 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2020-09-27 15:24:43,589 INFO o.a.j.g.a.Load: Loading file: /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/stress_test_suite.jmx
-2020-09-27 15:24:43,590 INFO o.a.j.s.FileServer: Set new base='/home/pierre/Courses/DevOpsUdacity/Project_3/jmeter'
-2020-09-27 15:24:43,591 INFO o.a.j.s.SaveService: Loading file: /home/pierre/Courses/DevOpsUdacity/Project_3/jmeter/stress_test_suite.jmx
-2020-09-27 15:24:43,631 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2020-09-27 15:24:43,739 INFO o.a.j.s.FileServer: Set new base='/home/pierre/Courses/DevOpsUdacity/Project_3/jmeter'
+2020-09-28 09:28:27,100 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-09-28 09:28:27,211 INFO o.a.j.JMeter: Loading user properties from: /usr/lib/apache-jmeter-5.3/bin/user.properties
+2020-09-28 09:28:27,235 INFO o.a.j.JMeter: Loading system properties from: /usr/lib/apache-jmeter-5.3/bin/system.properties
+2020-09-28 09:28:27,239 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-09-28 09:28:27,239 INFO o.a.j.JMeter: Version 5.3
+2020-09-28 09:28:27,239 INFO o.a.j.JMeter: java.version=11.0.8
+2020-09-28 09:28:27,239 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-09-28 09:28:27,240 INFO o.a.j.JMeter: os.name=Linux
+2020-09-28 09:28:27,240 INFO o.a.j.JMeter: os.arch=amd64
+2020-09-28 09:28:27,240 INFO o.a.j.JMeter: os.version=5.4.0-48-generic
+2020-09-28 09:28:27,240 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-09-28 09:28:27,240 INFO o.a.j.JMeter: java.awt.headless=null
+2020-09-28 09:28:27,240 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-09-28 09:28:27,240 INFO o.a.j.JMeter: Available Processors =6
+2020-09-28 09:28:27,259 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-09-28 09:28:27,260 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-09-28 09:28:27,260 INFO o.a.j.JMeter: JMeterHome=/usr/lib/apache-jmeter-5.3
+2020-09-28 09:28:27,260 INFO o.a.j.JMeter: user.dir  =/home/pierre/Projects/ci-cd-test-automation/jmeter
+2020-09-28 09:28:27,260 INFO o.a.j.JMeter: PWD       =/home/pierre/Projects/ci-cd-test-automation/jmeter
+2020-09-28 09:28:27,281 INFO o.a.j.JMeter: IP: 10.0.2.15 Name: tallons FullName: tallons
+2020-09-28 09:28:28,078 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2020-09-28 09:28:28,892 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-09-28 09:28:50,124 INFO o.a.j.s.FileServer: Default base='/home/pierre/Projects/ci-cd-test-automation/jmeter'
+2020-09-28 09:28:50,129 INFO o.a.j.g.a.Load: Loading file: /home/pierre/Projects/ci-cd-test-automation/jmeter/stress_test_suite.jmx
+2020-09-28 09:28:50,129 INFO o.a.j.s.FileServer: Set new base='/home/pierre/Projects/ci-cd-test-automation/jmeter'
+2020-09-28 09:28:51,560 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-09-28 09:28:51,983 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-09-28 09:28:51,985 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-09-28 09:28:51,987 INFO o.a.j.s.SaveService: Loading file: /home/pierre/Projects/ci-cd-test-automation/jmeter/stress_test_suite.jmx
+2020-09-28 09:28:52,100 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-28 09:28:52,101 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-28 09:28:52,101 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-28 09:28:52,101 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-28 09:28:52,101 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-09-28 09:28:52,101 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-09-28 09:28:52,848 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-09-28 09:28:52,848 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-09-28 09:28:52,848 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-09-28 09:28:52,848 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-09-28 09:28:54,456 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2020-09-28 09:28:54,527 INFO o.a.j.s.FileServer: Set new base='/home/pierre/Projects/ci-cd-test-automation/jmeter'
+2020-09-28 09:30:27,746 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-09-28 09:30:27,748 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-09-28 09:30:27,748 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-09-28 09:30:27,750 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-09-28 09:30:27,750 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-09-28 09:30:28,851 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-09-28 09:30:28,918 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Stress Test
+2020-09-28 09:30:28,918 INFO o.a.j.e.StandardJMeterEngine: Starting 30 threads for group Stress Test.
+2020-09-28 09:30:28,919 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-09-28 09:30:28,919 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=30 ramp-up=1 delayedStart=false
+2020-09-28 09:30:28,933 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-1
+2020-09-28 09:30:28,961 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-09-28 09:30:28,961 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-09-28 09:30:28,964 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-2
+2020-09-28 09:30:28,997 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-3
+2020-09-28 09:30:29,032 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-4
+2020-09-28 09:30:29,065 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-5
+2020-09-28 09:30:29,092 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-6
+2020-09-28 09:30:29,123 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = tallons
+2020-09-28 09:30:29,125 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-7
+2020-09-28 09:30:29,158 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-8
+2020-09-28 09:30:29,188 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-9
+2020-09-28 09:30:29,225 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 1
+2020-09-28 09:30:29,228 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-10
+2020-09-28 09:30:29,260 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-11
+2020-09-28 09:30:29,296 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-12
+2020-09-28 09:30:29,326 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-13
+2020-09-28 09:30:29,357 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-14
+2020-09-28 09:30:29,389 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-15
+2020-09-28 09:30:29,422 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-16
+2020-09-28 09:30:29,462 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-17
+2020-09-28 09:30:29,487 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-18
+2020-09-28 09:30:29,516 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-19
+2020-09-28 09:30:29,552 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-20
+2020-09-28 09:30:29,582 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-21
+2020-09-28 09:30:29,616 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-22
+2020-09-28 09:30:29,648 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-23
+2020-09-28 09:30:29,682 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-24
+2020-09-28 09:30:29,714 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-25
+2020-09-28 09:30:29,748 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-26
+2020-09-28 09:30:29,780 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-27
+2020-09-28 09:30:29,813 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-28
+2020-09-28 09:30:29,847 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-29
+2020-09-28 09:30:29,883 INFO o.a.j.t.JMeterThread: Thread started: Stress Test 1-30
+2020-09-28 09:30:30,057 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2020-09-28 09:30:30,062 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2020-09-28 09:30:30,062 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2020-09-28 09:30:31,074 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2020-09-28 09:30:31,149 INFO o.a.j.u.SSLManager: KeyStore created OK
+2020-09-28 09:30:31,149 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2020-09-28 09:31:28,939 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-2
+2020-09-28 09:31:28,941 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-2
+2020-09-28 09:31:28,952 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-14
+2020-09-28 09:31:28,952 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-14
+2020-09-28 09:31:28,958 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-8
+2020-09-28 09:31:28,958 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-8
+2020-09-28 09:31:28,959 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-13
+2020-09-28 09:31:28,959 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-13
+2020-09-28 09:31:28,974 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-21
+2020-09-28 09:31:28,975 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-21
+2020-09-28 09:31:28,984 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-1
+2020-09-28 09:31:28,984 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-1
+2020-09-28 09:31:28,985 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-10
+2020-09-28 09:31:28,985 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-10
+2020-09-28 09:31:28,987 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-4
+2020-09-28 09:31:28,987 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-4
+2020-09-28 09:31:28,999 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-24
+2020-09-28 09:31:28,999 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-24
+2020-09-28 09:31:29,000 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-28
+2020-09-28 09:31:29,000 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-28
+2020-09-28 09:31:29,006 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-29
+2020-09-28 09:31:29,007 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-29
+2020-09-28 09:31:29,017 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-30
+2020-09-28 09:31:29,017 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-12
+2020-09-28 09:31:29,017 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-30
+2020-09-28 09:31:29,017 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-12
+2020-09-28 09:31:29,025 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-18
+2020-09-28 09:31:29,025 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-18
+2020-09-28 09:31:29,029 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-20
+2020-09-28 09:31:29,029 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-3
+2020-09-28 09:31:29,029 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-20
+2020-09-28 09:31:29,029 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-3
+2020-09-28 09:31:29,035 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-25
+2020-09-28 09:31:29,035 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-25
+2020-09-28 09:31:29,047 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-6
+2020-09-28 09:31:29,047 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-6
+2020-09-28 09:31:29,051 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-5
+2020-09-28 09:31:29,051 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-5
+2020-09-28 09:31:29,053 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-11
+2020-09-28 09:31:29,053 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-11
+2020-09-28 09:31:29,054 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-17
+2020-09-28 09:31:29,054 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-16
+2020-09-28 09:31:29,054 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-17
+2020-09-28 09:31:29,054 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-16
+2020-09-28 09:31:29,060 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-22
+2020-09-28 09:31:29,060 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-22
+2020-09-28 09:31:29,076 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-23
+2020-09-28 09:31:29,076 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-23
+2020-09-28 09:31:29,087 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-9
+2020-09-28 09:31:29,087 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-9
+2020-09-28 09:31:29,100 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-26
+2020-09-28 09:31:29,101 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-26
+2020-09-28 09:31:29,127 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-19
+2020-09-28 09:31:29,127 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-19
+2020-09-28 09:31:29,954 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-15
+2020-09-28 09:31:29,955 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-15
+2020-09-28 09:31:30,000 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-7
+2020-09-28 09:31:30,000 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-7
+2020-09-28 09:31:30,024 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test 1-27
+2020-09-28 09:31:30,024 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test 1-27
+2020-09-28 09:31:30,025 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-09-28 09:31:30,025 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-09-28 09:32:17,956 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2020-09-28 09:32:18,010 INFO o.a.j.g.a.Load: Loading file: /home/pierre/Projects/ci-cd-test-automation/jmeter/endurance_test_suite.jmx
+2020-09-28 09:32:18,010 INFO o.a.j.s.FileServer: Set new base='/home/pierre/Projects/ci-cd-test-automation/jmeter'
+2020-09-28 09:32:18,010 INFO o.a.j.s.SaveService: Loading file: /home/pierre/Projects/ci-cd-test-automation/jmeter/endurance_test_suite.jmx
+2020-09-28 09:32:18,038 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2020-09-28 09:32:18,104 INFO o.a.j.s.FileServer: Set new base='/home/pierre/Projects/ci-cd-test-automation/jmeter'
+2020-09-28 09:32:54,914 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-09-28 09:32:54,915 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-09-28 09:32:54,918 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-09-28 09:32:55,069 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Endurance Test
+2020-09-28 09:32:55,070 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group Endurance Test.
+2020-09-28 09:32:55,070 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-09-28 09:32:55,070 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=4 ramp-up=1 delayedStart=false
+2020-09-28 09:32:55,071 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-1
+2020-09-28 09:32:55,072 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-09-28 09:32:55,072 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-09-28 09:32:55,321 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-2
+2020-09-28 09:32:55,571 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-3
+2020-09-28 09:32:55,822 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-4
+2020-09-28 09:33:22,552 INFO o.a.j.g.a.Start: Stopping test
+2020-09-28 09:33:22,557 INFO o.a.j.t.JMeterThread: Stopping: Endurance Test 1-3
+2020-09-28 09:33:22,558 WARN o.a.j.t.JMeterThread: Interrupting: Endurance Test 1-3 sampler: HTTP Request
+2020-09-28 09:33:22,599 INFO o.a.j.t.JMeterThread: Stopping: Endurance Test 1-1
+2020-09-28 09:33:22,600 WARN o.a.j.t.JMeterThread: Interrupting: Endurance Test 1-1 sampler: HTTP Request
+2020-09-28 09:33:22,601 INFO o.a.j.t.JMeterThread: Stopping: Endurance Test 1-4
+2020-09-28 09:33:22,601 WARN o.a.j.t.JMeterThread: Interrupting: Endurance Test 1-4 sampler: HTTP Request
+2020-09-28 09:33:22,602 INFO o.a.j.t.JMeterThread: Stopping: Endurance Test 1-2
+2020-09-28 09:33:22,602 WARN o.a.j.t.JMeterThread: Interrupting: Endurance Test 1-2 sampler: HTTP Request
+2020-09-28 09:33:22,604 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-3
+2020-09-28 09:33:22,605 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-4
+2020-09-28 09:33:22,607 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-1
+2020-09-28 09:33:22,608 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-2
+2020-09-28 09:33:22,609 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-09-28 09:33:22,609 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-09-28 09:33:36,378 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-09-28 09:33:36,379 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-09-28 09:33:36,380 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-09-28 09:33:36,450 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Endurance Test
+2020-09-28 09:33:36,450 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group Endurance Test.
+2020-09-28 09:33:36,451 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-09-28 09:33:36,451 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=4 ramp-up=1 delayedStart=false
+2020-09-28 09:33:36,452 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-1
+2020-09-28 09:33:36,472 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-09-28 09:33:36,472 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-09-28 09:33:36,711 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-2
+2020-09-28 09:33:36,954 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-3
+2020-09-28 09:33:37,216 INFO o.a.j.t.JMeterThread: Thread started: Endurance Test 1-4
+2020-09-28 09:36:36,709 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Endurance Test 1-1
+2020-09-28 09:36:36,820 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-1
+2020-09-28 09:36:37,088 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Endurance Test 1-4
+2020-09-28 09:36:37,088 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-4
+2020-09-28 09:36:37,159 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Endurance Test 1-3
+2020-09-28 09:36:37,159 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-3
+2020-09-28 09:36:37,392 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Endurance Test 1-2
+2020-09-28 09:36:37,393 INFO o.a.j.t.JMeterThread: Thread finished: Endurance Test 1-2
+2020-09-28 09:36:37,394 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-09-28 09:36:37,394 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
