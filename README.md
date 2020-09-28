@@ -69,12 +69,6 @@ terraform apply
 
 7. Add Virtual machine to CITESTING Environment ([resource](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/environments-virtual-machines?view=azure-devops))
 
-Name the environment the following:
-
-```
-CITESTING
-```
-
 8. Create SSH keypair to be used with GitHub and Azure Pipelines ([resource](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/install-ssh-key?view=azure-devops))
 
 9. Create Service Connection in DevOps project
