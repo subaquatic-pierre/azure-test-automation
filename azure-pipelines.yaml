@@ -142,7 +142,9 @@ stages:
                       #! /bin/bash
 
                       # ------------- Run Selenium tests -------------
-                      export PATH=$PATH:/usr/bin/chromebrowser
+                      wget https://chromedriver.storage.googleapis.com/85.0.4183.87/chromedriver_linux64.zip
+                      unzip chromedriver_linux64.zip
+                      export PATH=$PATH:chromedriver
                       cd ..
                       echo "Running selenium tests ..."
                       python3 project/s/selenium/selenium_test.py
