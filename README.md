@@ -34,7 +34,7 @@ git clone https://github.com/subaquatic-pierre/ci-cd-test-automation.git
 
 3. Link Project to GitHub repo ([resource](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml))
 
-4. Update 'terraform.tfvars' to include your credentials
+4. Update 'terraform.tfvars.example' to include your credentials, update file name to remove '.example' extension.
 
 ```yaml
 # Azure subscription vars
@@ -67,7 +67,7 @@ terraform init
 terraform apply
 ```
 
-7. Create CITESTING Environment in the pipeline ([resource](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/deploy-linux-vm?view=azure-devops&tabs=java))
+7. Add Virtual machine to CITESTING Environment ([resource](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/environments-virtual-machines?view=azure-devops))
 
 Name the environment the following:
 

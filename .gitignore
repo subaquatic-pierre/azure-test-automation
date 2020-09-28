@@ -1,4 +1,4 @@
 terraform.tfvars
-credentials.ini
+*.ini
 .terraform
 log
