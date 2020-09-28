@@ -29,7 +29,7 @@ stages:
                 echo "Clearing tests folder"
                 sudo rm -rf newman/*
                 echo "Running Postman tests ..."
-                newman run postman/FakeRestAPI_Postman.json -e postman/FakeRestAPI_Postman_environment.json --reporters cli,junit
+                # newman run postman/FakeRestAPI_Postman.json -e postman/FakeRestAPI_Postman_environment.json --reporters cli,junit
 
           - task: PublishTestResults@2
             displayName: "Publish Test Results"
