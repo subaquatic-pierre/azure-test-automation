@@ -104,7 +104,6 @@ stages:
                       sudo apt install unzip -y
                       sudo apt install -y chromium-browser
                       pip3 install selenium
-                      export PATH=$PATH:/usr/bin/chromebrowser
 
                       # ------------- Install Jmeter -------------
                       if test -f "/usr/bin/jmeter"
@@ -143,6 +142,7 @@ stages:
                       #! /bin/bash
 
                       # ------------- Run Selenium tests -------------
+                      export PATH=$PATH:/usr/bin/chromebrowser
                       cd ..
                       echo "Running selenium tests ..."
                       python3 project/s/selenium/selenium_test.py
