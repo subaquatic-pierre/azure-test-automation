@@ -116,8 +116,9 @@ stages:
                       cd ..
                       echo "Running selenium tests ..."
                       python3 project/s/selenium/selenium_test.py
-                      echo "Moving selenium log files to /var/log/selenium/ ..."
-                      sudo mv *.log -t /var/log/selenium
+                      echo "Moving selenium log files to /home/udacity/log/selenium/ ..."
+                      sudo mkdir /home/udacity/log/selenium
+                      sudo mv *.log -t /home/udacity/log/selenium
 
                 - task: Bash@3
                   displayName: "Run Jmeter tests"
