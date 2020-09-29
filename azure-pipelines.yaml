@@ -29,9 +29,9 @@ stages:
                 echo "Clearing tests folder"
                 sudo rm -rf newman/*
                 echo "Running Regression tests ..."
-                newman run postman/Regression_Tests.postman_collection.json -e postman/FakeRestAPI_Postman_environment.json --reporters cli,junit
+                # newman run postman/Regression_Tests.postman_collection.json -e postman/FakeRestAPI_Postman_environment.json --reporters cli,junit
                 echo "Running Data Validation tests ..."
-                newman run postman/Data_Validation_Tests.postman_collection.json -e postman/FakeRestAPI_Postman_environment.json --reporters cli,junit
+                # newman run postman/Data_Validation_Tests.postman_collection.json -e postman/FakeRestAPI_Postman_environment.json --reporters cli,junit
 
           - task: PublishTestResults@2
             displayName: "Publish Test Results"
