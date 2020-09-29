@@ -28,8 +28,10 @@ stages:
                 # ------------- Run Postman tests -------------
                 echo "Clearing tests folder"
                 sudo rm -rf newman/*
-                echo "Running Postman tests ..."
-                # newman run postman/FakeRestAPI_Postman.json -e postman/FakeRestAPI_Postman_environment.json --reporters cli,junit
+                echo "Running Regression tests ..."
+                newman run postman/Regression_Tests.postman_collection.json -e postman/FakeRestAPI_Postman_environment.json --reporters cli,junit
+                echo "Running Data Validation tests ..."
+                newman run postman/Data_Validation_Tests.postman_collection.json -e postman/FakeRestAPI_Postman_environment.json --reporters cli,junit
 
           - task: PublishTestResults@2
             displayName: "Publish Test Results"
@@ -163,8 +165,8 @@ stages:
                       echo "Running selenium tests ..."
                       python3 project/s/selenium/selenium_test.py
                       echo "Moving selenium log files to /home/udacity/log/selenium/ ..."
-                      sudo mkdir -p /home/udacity/log/selenium
-                      sudo mv *.log -t /home/udacity/log/selenium
+                      sudo mkdir -p /var/logs/selenium
+                      sudo cp selenium_log.txt -t /var/logs/selenium
 
                 - task: Bash@3
                   displayName: "Run Jmeter tests"

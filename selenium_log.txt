@@ -1,0 +1,21 @@
+
+2020-09-29T11:52:58K At home page - https://www.saucedemo.com/
+2020-09-29T11:52:58K Loggin standard_user with password secret_sauce
+2020-09-29T11:53:01K User successfully logged in
+2020-09-29T11:53:01K Adding all items to the cart ...
+2020-09-29T11:53:01K Adding Sauce Labs Backpack to the cart
+2020-09-29T11:53:01K Adding Sauce Labs Bike Light to the cart
+2020-09-29T11:53:01K Adding Sauce Labs Bolt T-Shirt to the cart
+2020-09-29T11:53:01K Adding Sauce Labs Fleece Jacket to the cart
+2020-09-29T11:53:02K Adding Sauce Labs Onesie to the cart
+2020-09-29T11:53:02K Adding Test.allTheThings() T-Shirt (Red) to the cart
+2020-09-29T11:53:02K Navigating to cart page
+2020-09-29T11:53:02K Now on cart page
+2020-09-29T11:53:02K Removing all items from the cart
+2020-09-29T11:53:02K Removing Sauce Labs Backpack from cart the cart
+2020-09-29T11:53:02K Removing Sauce Labs Bike Light from cart the cart
+2020-09-29T11:53:02K Removing Sauce Labs Bolt T-Shirt from cart the cart
+2020-09-29T11:53:02K Removing Sauce Labs Fleece Jacket from cart the cart
+2020-09-29T11:53:03K Removing Sauce Labs Onesie from cart the cart
+2020-09-29T11:53:03K Removing Test.allTheThings() T-Shirt (Red) from cart the cart
+2020-09-29T11:53:03K Successfully logged in, added all items to cart and removed all items.

@@ -15,14 +15,14 @@ chrome_options.add_argument("--headless")
 
 
 def log(text):
-    print(text)
-    log_arr.append(text)
+    time = datetime.now().strftime("%Y-%m-%dT%H:%M:%SK")
+    entry = time + " " + text
+    print(entry)
+    log_arr.append(entry)
 
 
 def write_log():
-    file_prefix = datetime.now().strftime("%H:%M:%S-%d_%m_%Y")
-    print(file_prefix)
-    with open(f"{file_prefix}.log", "w") as txt_file:
+    with open(f"selenium_log.txt", "a+") as txt_file:
         for line in log_arr:
             txt_file.write("".join(line) + "\n")
 

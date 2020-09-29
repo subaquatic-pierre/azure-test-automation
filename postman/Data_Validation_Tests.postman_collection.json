@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "625bbc46-bd8c-4cfb-907c-56218c92623e",
-		"name": "FakeRestAPI",
+		"_postman_id": "31010d8b-57fa-4963-9f1f-b0df447f9367",
+		"name": "Data Validation Tests",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -14,11 +14,8 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "ea0e2a0d-3d13-4aa3-bbfa-19ebfdb86f2f",
+								"id": "d7b29b71-13fc-405a-a9fd-30335bff76b6",
 								"exec": [
-									"pm.test(\"Regression Test : Get All Activies - Status code is 200\", function () {",
-									"    pm.response.to.have.status(200);",
-									"});",
 									"pm.test(\"Data Validation Test : Get All Activies - Response inlcudes atleast one 'Title'\", function () {",
 									"    pm.expect(pm.response.text()).to.include(\"Title\");",
 									"});"
@@ -60,11 +57,8 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "204b1926-62c9-4198-8cf7-6e907f619256",
+								"id": "d26a3ddb-6fde-48ea-892e-a117e885aa0e",
 								"exec": [
-									"pm.test(\"Regression Test : Get Activity 1 - Status code is 200\", function () {",
-									"    pm.response.to.have.status(200);",
-									"});",
 									"pm.test(\"Data Validation Test : Get Activity 1 - Response inlcudes 'Title'\", function () {",
 									"    pm.expect(pm.response.text()).to.include(\"Title\");",
 									"});"
@@ -107,11 +101,8 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "6045c682-668a-461e-81d4-dc39c7190495",
+								"id": "85b7589c-f6bb-44ec-b594-7c45a3fec487",
 								"exec": [
-									"pm.test(\"Regression Test : Get Activity 1 - Status code is 200\", function () {",
-									"    pm.response.to.have.status(200);",
-									"});",
 									"pm.test(\"Data Validation Test : Create new activity - Response inlcudes 'Visit the moon'\", function () {",
 									"    pm.expect(pm.response.text()).to.include(\"Visit the moon\");",
 									"});"
@@ -151,11 +142,8 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "95672288-083a-4e72-944d-1e38035bab33",
+								"id": "26120143-1610-4829-89c5-34f83b1f3392",
 								"exec": [
-									"pm.test(\"Regression Test : Update Activity 1 - Status code is 200\", function () {",
-									"    pm.response.to.have.status(200);",
-									"});",
 									"pm.test(\"Data Validation Test : Update activity - Response inlcudes 'true'\", function () {",
 									"    pm.expect(pm.response.text()).to.include(\"true\");",
 									"});"
@@ -170,47 +158,6 @@
 						"body": {
 							"mode": "raw",
 							"raw": "{\n  \"Title\": \"Visit the moon\",\n  \"DueDate\": \"2021-09-27T03:36:31.535Z\",\n  \"Completed\": true\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "{{url}}/Activities/0",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"Activities",
-								"0"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Delete Activity",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "74652729-09bc-480c-9325-417c44646574",
-								"exec": [
-									"pm.test(\"Regression Test : Delete activity 0 - Status code is 200\", function () {",
-									"    pm.response.to.have.status(200);",
-									"});"
-								],
-								"type": "text/javascript"
-							}
-						}
-					],
-					"request": {
-						"method": "DELETE",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n  \"Title\": \"Visit the moon\",\n  \"DueDate\": \"2021-09-27T03:36:31.535Z\",\n  \"Completed\": false\n}",
 							"options": {
 								"raw": {
 									"language": "json"
