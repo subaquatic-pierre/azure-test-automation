@@ -164,12 +164,14 @@ stages:
                       cd ..
                       if test -f '/var/logs/selenium/selenium_log.txt'
                       then
+                        sudo chmod 777 /var/logs/selenium/selenium_log.txt
                         python3 project/s/selenium/selenium_test.py
                       else
                         echo "Creating selenium log file"
                         sudo mkdir -p /var/logs/selenium
                         sudo touch /var/logs/selenium/selenium_log.txt
-                        sudo chmod 775 -R /var/logs
+                        sudo chmod 775 -R /var/logs      
+                        sudo chmod 777 /var/logs/selenium/selenium_log.txt                  
                         echo "Running selenium tests ..."
                         python3 project/s/selenium/selenium_test.py
                       fi
