@@ -162,11 +162,17 @@ stages:
 
                       # ------------- Run Selenium tests -------------
                       cd ..
-                      echo "Running selenium tests ..."
-                      python3 project/s/selenium/selenium_test.py
-                      echo "Moving selenium log files to /home/udacity/log/selenium/ ..."
-                      sudo mkdir -p /var/logs/selenium
-                      sudo cp selenium_log.txt -t /var/logs/selenium
+                      if test -f '/var/logs/selenium/selenium_log.txt'
+                      then
+                        python3 project/s/selenium/selenium_test.py
+                      else
+                        echo "Creating selenium log file"
+                        sudo mkdir -p /var/logs/selenium
+                        sudo touch /var/logs/selenium/selenium_log.txt
+                        sudo chmod 775 -R /var/logs
+                        echo "Running selenium tests ..."
+                        python3 project/s/selenium/selenium_test.py
+                      fi
 
                 - task: Bash@3
                   displayName: "Run Jmeter tests"

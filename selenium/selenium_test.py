@@ -9,6 +9,7 @@ from datetime import datetime
 # Ititialize settings
 URL = "https://www.saucedemo.com/"
 SEARCH_TERM = "T SHIRT"
+LOG_FILE = "/var/logs/selenium/selenium_log.txt"
 log_arr = []
 chrome_options = Options()
 chrome_options.add_argument("--headless")
@@ -22,7 +23,7 @@ def log(text):
 
 
 def write_log():
-    with open(f"selenium_log.txt", "a+") as txt_file:
+    with open(LOG_FILE, "a+") as txt_file:
         for line in log_arr:
             txt_file.write("".join(line) + "\n")
 
